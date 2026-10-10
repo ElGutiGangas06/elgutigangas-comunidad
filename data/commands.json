@@ -1,0 +1,249 @@
+{
+  "verifiedAt": "2026-10-09T21:54:19.605Z",
+  "sourceUrl": "https://nightbot.tv/t/elgutigangas_/commands",
+  "chatResponsesTested": false,
+  "commands": [
+    {
+      "name": "!8ball",
+      "category": "Juegos del chat",
+      "description": "Hazle una pregunta a la bola mágica.",
+      "usage": "!8ball [pregunta]",
+      "example": "!8ball ¿Ganamos la próxima?",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!amor",
+      "category": "Juegos del chat",
+      "description": "Calcula una compatibilidad de broma con otro usuario.",
+      "usage": "!amor [usuario]",
+      "example": "!amor ElGutiGangas_",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!amorrandom",
+      "category": "Juegos del chat",
+      "description": "Elige alguien del chat para una compatibilidad de broma.",
+      "usage": "!amorrandom",
+      "example": "!amorrandom",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!casino",
+      "category": "Retirados",
+      "description": "La promoción anterior fue retirada del comando.",
+      "usage": "!casino",
+      "example": null,
+      "permission": "Solo Guti",
+      "cooldown": 5,
+      "enabled": true,
+      "availableToPublic": false,
+      "status": "disabled",
+      "note": "Retirado para el público. Permiso exclusivo del dueño.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!discord",
+      "category": "Redes",
+      "description": "Comparte la invitación al Discord del canal.",
+      "usage": "!discord",
+      "example": "!discord",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!duelo",
+      "category": "Juegos del chat",
+      "description": "Reta a otro usuario a un duelo ficticio.",
+      "usage": "!duelo [usuario]",
+      "example": "!duelo ElGutiGangas_",
+      "permission": "Todos",
+      "cooldown": 5,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Usa un usuario explícito. Depende de servicios externos; el caso sin usuario y la respuesta final siguen por probar.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!facha",
+      "category": "Juegos del chat",
+      "description": "Devuelve una valoración de facha de broma.",
+      "usage": "!facha",
+      "example": "!facha",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!followers",
+      "category": "Directo",
+      "description": "Consulta cuántos seguidores tiene el canal.",
+      "usage": "!followers",
+      "example": "!followers",
+      "permission": "Todos",
+      "cooldown": 5,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!ig",
+      "category": "Redes",
+      "description": "Comparte el Instagram actual de Guti.",
+      "usage": "!ig",
+      "example": "!ig",
+      "permission": "Todos",
+      "cooldown": 15,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!memide",
+      "category": "Juegos del chat",
+      "description": "Devuelve una medida de broma.",
+      "usage": "!memide",
+      "example": "!memide",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!redes",
+      "category": "Redes",
+      "description": "Reúne todas las redes en el Linktree.",
+      "usage": "!redes",
+      "example": "!redes",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!subs",
+      "category": "Directo",
+      "description": "Consulta el total de suscriptores que Twitch informa al bot.",
+      "usage": "!subs",
+      "example": "!subs",
+      "permission": "Todos",
+      "cooldown": 5,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!uptime",
+      "category": "Directo",
+      "description": "Consulta cuánto tiempo lleva el directo.",
+      "usage": "!uptime",
+      "example": "!uptime",
+      "permission": "Todos",
+      "cooldown": 5,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "!wate",
+      "category": "Juegos del chat",
+      "description": "Da un wate ficticio a alguien elegido del chat.",
+      "usage": "!wate",
+      "example": "!wate",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "needs_review",
+      "note": "Depende de un servicio externo. La respuesta en chat todavía no se ha probado en esta revisión.",
+      "runtimeVerified": false
+    },
+    {
+      "name": "hola",
+      "category": "Saludos",
+      "description": "Activa el saludo de bienvenida de Nightbot.",
+      "usage": "hola",
+      "example": "hola",
+      "permission": "Todos",
+      "cooldown": null,
+      "enabled": true,
+      "availableToPublic": true,
+      "status": "verified",
+      "note": "Configuración revisada; falta comprobar la respuesta del bot en el chat.",
+      "runtimeVerified": false
+    }
+  ],
+  "configurationChanges": [
+    {
+      "title": "!casino",
+      "description": "Retirada la promoción y sustituida por un aviso neutral. El comando queda restringido al dueño; se conserva para poder revertir.",
+      "status": "applied"
+    },
+    {
+      "title": "!duelo",
+      "description": "Reemplazado el texto CANAL por elgutigangas_ en la selección de usuario. La respuesta completa aún requiere prueba en chat.",
+      "status": "applied"
+    },
+    {
+      "title": "!followers",
+      "description": "Añadido el canal a la consulta del número de seguidores de Twitch.",
+      "status": "applied"
+    },
+    {
+      "title": "!ig",
+      "description": "Guardado el Instagram actual: @b._.guti.",
+      "status": "applied"
+    },
+    {
+      "title": "!subs",
+      "description": "Añadido el canal a la consulta del número de suscriptores de Twitch.",
+      "status": "applied"
+    },
+    {
+      "title": "!uptime",
+      "description": "Añadido el canal a la consulta de duración y una descripción legible a la respuesta.",
+      "status": "applied"
+    }
+  ]
+}

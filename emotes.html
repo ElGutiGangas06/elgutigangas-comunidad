@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark">
+  <meta name="description" content="La familia de emotes aprobados de Blanco, con sus usos y una guía de Twitch, BetterTTV y FrankerFaceZ.">
+  <title>Emotes de Blanco | ElGutiGangas</title><link rel="stylesheet" href="guias.css"><script src="guias.js" defer></script>
+</head>
+<body data-page="emotes">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header wrap"><a class="wordmark" href="index.html">ElGutiGangas</a><nav aria-label="Guías del canal"><a href="index.html">Inicio</a><a href="comandos.html">Comandos</a><a href="emotes.html" aria-current="page">Emotes</a></nav></header>
+  <main id="contenido" class="wrap">
+    <header class="guide-hero"><div><h1>La familia<br>de Blanco.</h1><p>Una reacción para cada momento, con la misma calavera de siempre.</p></div><img class="panel-art" src="assets/brand/emotes.png" alt="Panel de emotes aprobado: Blanco en distintas expresiones, con hueso y tinta" width="320" height="112"></header>
+    <aside class="review-note compact"><strong>Biblioteca de Twitch cargada.</strong> <span id="emote-config-summary">Cargando la instantánea de las ranuras y sus revisiones…</span> Se permite copiar el código de las piezas asignadas sin aviso de revisión. Su disponibilidad real en el chat todavía no se ha probado.</aside>
+
+    <section class="catalogue" aria-labelledby="catalogo-titulo">
+      <h2 id="catalogo-titulo">Encuentra tu gesto.</h2>
+      <div class="toolbox">
+        <div class="search-field"><label for="emote-search">Buscar emote</label><input id="emote-search" type="search" placeholder="Nombre, gesto o uso" autocomplete="off"></div>
+        <fieldset class="filter-options"><legend>Tipo de emote</legend><div class="chips" id="emote-types"><button type="button" class="chip" data-type="all" aria-pressed="true">Todos</button><button type="button" class="chip" data-type="static" aria-pressed="false">Estáticos</button><button type="button" class="chip" data-type="animated" aria-pressed="false">Animados</button></div></fieldset>
+        <label class="motion-toggle"><input id="motion-toggle" type="checkbox" checked><span>Reproducir animados</span></label>
+      </div>
+      <p id="motion-note" class="muted small">Puedes detenerlos todos o controlar cada pieza por separado.</p>
+      <div id="emote-categories" class="category-strip" aria-label="Filtrar emotes por uso"></div>
+      <div class="select-field placement-filter"><label for="emote-placement">Estado de la ranura</label><select id="emote-placement"><option value="all">Toda la biblioteca</option><option value="assigned">Asignados a una ranura</option><option value="library">En biblioteca, sin ranura</option></select></div>
+      <p id="emote-results" class="result-count" role="status" aria-live="polite">Cargando la galería…</p>
+      <div id="emote-grid" class="emote-grid"><p class="loading">Cargando piezas aprobadas…</p></div>
+      <p id="copy-feedback" class="copy-feedback" role="status" aria-live="polite"></p>
+      <noscript><p class="error-state">La búsqueda y la galería necesitan JavaScript. Consulta también el menú de emotes en el canal de Twitch.</p></noscript>
+    </section>
+
+    <section class="extension-guide" aria-labelledby="ver-emotes-titulo">
+      <h2 id="ver-emotes-titulo">¿Ves palabras en vez de emotes?</h2><p class="section-intro">Twitch y las extensiones muestran emotes de maneras distintas. El nombre debe coincidir con uno habilitado en el canal.</p>
+      <div class="emote-explainer"><div class="text-demo"><span>Sin el emote disponible</span><code>[código del emote]</code></div><span class="demo-arrow" aria-hidden="true">→</span><div class="image-demo"><span>Con el emote disponible</span><div id="extension-example"><span class="muted">Imagen del emote</span></div></div></div>
+      <p class="small muted">Ejemplo visual: no representa un código ya configurado para Blanco.</p>
+      <div class="provider-columns"><article><h3>Los de Twitch</h3><p>Se muestran dentro de Twitch. Revisa el menú de emotes del chat para ver los que tu cuenta puede utilizar.</p><a class="text-link" href="https://www.twitch.tv/elgutigangas_/about" target="_blank" rel="noopener noreferrer">Ir al canal de Twitch <span aria-hidden="true">↗</span></a></article><article><h3>Los de las extensiones</h3><p>BetterTTV y FrankerFaceZ añaden emotes en navegadores compatibles. Consulta sus sitios oficiales y elige la extensión que usarás.</p><div class="provider-links"><a class="button secondary" href="https://betterttv.com/" target="_blank" rel="noopener noreferrer">BetterTTV</a><a class="button secondary" href="https://www.frankerfacez.com/" target="_blank" rel="noopener noreferrer">FrankerFaceZ</a></div></article></div>
+      <ol class="instruction-list"><li><strong>Elige la extensión.</strong><p>Revisa su compatibilidad e instalación en el sitio oficial.</p></li><li><strong>Vuelve al canal.</strong><p>Recarga Twitch en el mismo navegador donde la instalaste.</p></li><li><strong>Revisa el menú de emotes.</strong><p>Si sigue apareciendo texto, comprueba la extensión y la colección habilitada para el canal.</p></li></ol>
+      <p class="small muted">Los emotes nativos se consultan en Twitch, también desde su aplicación. La app oficial de Twitch no incorpora automáticamente BetterTTV ni FrankerFaceZ; para esos emotes necesitas un navegador y una extensión compatibles.</p>
+    </section>
+    <details class="source-details"><summary>Fuentes y estado de esta guía</summary><div id="emote-sources"><p>El catálogo muestra las expresiones de Blanco preparadas para ElGutiGangas. Las cargas, códigos, ranuras y estados se documentan desde el panel de Twitch en una instantánea fechada.</p><p>Una pieza en biblioteca puede carecer de ranura. Una pieza asignada que Twitch sigue revisando todavía no se presenta aquí como disponible. “Sin aviso de revisión” describe lo que mostró el panel; no confirma una aprobación explícita ni una prueba real en el chat.</p><p id="emote-snapshot-note"></p><p>La instalación y compatibilidad se consultan en los sitios oficiales de cada proveedor. Las colecciones BTTV y FFZ de este canal todavía necesitan confirmarse.</p><ul class="source-list"><li><a href="https://help.twitch.tv/s/article/chat-basics?language=en_US" target="_blank" rel="noopener noreferrer">Twitch: uso del chat y selector de emotes</a></li><li><a href="https://help.twitch.tv/s/article/subscriber-emote-guide?language=en_US" target="_blank" rel="noopener noreferrer">Twitch: biblioteca y ranuras de emotes</a></li><li><a href="https://betterttv.com/" target="_blank" rel="noopener noreferrer">BetterTTV: instalación oficial</a></li><li><a href="https://www.frankerfacez.com/" target="_blank" rel="noopener noreferrer">FrankerFaceZ: instalación oficial</a></li></ul></div></details>
+  </main>
+  <footer class="site-footer wrap"><p>ElGutiGangas · Hueso y Tinta</p><a href="comandos.html">Ver los comandos</a></footer>
+</body>
+</html>
